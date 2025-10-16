@@ -1,0 +1,5 @@
+{
+    "naip_dir": "path/to/naip/directory",
+    "s2_dir": "path/to/sentinel2/directory",
+    "results_path": "path/to/file.json"
+}

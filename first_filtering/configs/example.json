@@ -1,0 +1,5 @@
+{
+    "naip_dir": "/workspace/data/Satlas/val_set/naip",
+    "s2_dir": "/workspace/data/Satlas/val_set/sentinel2",
+    "results_path": "/workspace/pipeline_framework/first_filtering/results/test.json"
+}

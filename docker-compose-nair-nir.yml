@@ -1,0 +1,10 @@
+version: '2.2'
+services:
+  satlas_naip_nir:
+    env_file: .env
+    container_name: satlas_naip_nir_${UID}
+    tty: true
+    extends:
+      file: docker-compose.yml
+      service: satlas
+    command: /bin/bash -c "python3.9 /workspace/data_downloader/naip_nir_downloader.py --src /workspace/data/"

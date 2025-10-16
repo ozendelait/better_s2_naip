@@ -1,0 +1,8 @@
+{
+    "rgb_dir": "/workspace/readonly-satlas/val_set",
+    "save_dir": "/workspace/pipeline-data/dataset_from_pipeline/test",
+    "nir_dir": "/workspace/readonly-satlasNIR/nirres/val_set",
+    "data_path": "/workspace/first_filtering/results/test.json",
+    "num_imgs_m1": 16,
+    "device": "cuda:0"
+}

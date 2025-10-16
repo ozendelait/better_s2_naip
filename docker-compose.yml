@@ -1,0 +1,25 @@
+version: '2.2'
+services:
+  satlas:
+    container_name: satlas_${UID}
+    user: ${UID}
+    env_file: .env
+    build:
+      context: .
+      args:
+        UID: ${UID}
+    shm_size: '8gb'
+    cpuset: ${DOCKER_LIMIT_CPU_IDS}
+    ports:
+      - "${IPYNB_PORT}:8889" #only needed for jupyter notebooks
+    volumes:
+      # this is the local directory
+      - ./:/workspace/
+      # keep torch/huggingface temp files from re-downloading every time
+      - ./torch_tmp:/home/udocker/.cache/
+      #needed for x-window-forwarding
+      # execute this once per host system startup: xhost +local:docker
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      # Data volume
+      - ${SATLAS_DATA_PATH}:/workspace/data
+    command: /bin/bash -c "sleep infinity"

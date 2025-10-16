@@ -1,0 +1,18 @@
+*.png
+preprocess/plots/
+__pycache__/
+pipeline_dataset/.ipynb_checkpoints/
+ssr/data/.ipynb_checkpoints/
+.Trash-1000/
+data_downloader/.ipynb_checkpoints/
+.ipynb_checkpoints/
+.tmp_naip_nir.tif
+data_downloader/.tmp_naip_nir.tif
+data/
+data_test/
+.env
+
+# Mac specific
+.DS_Store
+
+

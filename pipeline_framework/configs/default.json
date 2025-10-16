@@ -1,0 +1,8 @@
+{
+    "rgb_dir": "/path/to/rgb/directory",
+    "save_dir": "/path/to/save/directory",
+    "nir_dir": "/path/to/nir/directory/naip",
+    "data_path": "/path/to/file.json",
+    "num_imgs_m1": 16,
+    "device": "cuda:0"
+}
