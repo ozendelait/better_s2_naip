@@ -2,7 +2,7 @@
 
 This is the repo with support code for the paper
 
-**Better Data for Satellite Super Resolution** <br>
+**Better Data for Satellite Super Resolution** [pdf](https://openreview.net/pdf?id=MBy4kfHOza)<br>
 NeurIPS 2025 [Workshop on Reliable ML from Unreliable Data](https://reliablemlworkshop.github.io/) <br>
 Miguel Castells, Jules Salzinger, and Oliver Zendel <br>
 [Austrian Institute of Technology Gmbh](https://www.ait.ac.at/) <br>
@@ -15,6 +15,17 @@ This repository contains code to ensure the reproducibility of the experiments d
 - Downloading NIR bands for NAIP
 - Dataset creation pipeline
 - Manual correction of worst pairs
+
+Please cite our work if you find it helpful:
+
+    @inproceedings{
+    castells2025better,
+    title={Better Data for Satellite Super Resolution},
+    author={Miguel Castells and Jules Salzinger and Oliver Zendel},
+    booktitle={NeurIPS 2025 Workshop: Reliable ML from Unreliable Data},
+    year={2025},
+    url={https://openreview.net/forum?id=MBy4kfHOza}
+    }
 
 ---
 
