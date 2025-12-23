@@ -7,7 +7,7 @@ NeurIPS 2025 [Workshop on Reliable ML from Unreliable Data](https://reliablemlwo
 Miguel Castells, Jules Salzinger, and Oliver Zendel <br>
 [Austrian Institute of Technology Gmbh](https://www.ait.ac.at/) <br>
 
-This work utilizes the S2*NAIP dataset from the paper \_Zooming Out on Zooming In: Advancing Super-Resolution for Remote Sensing* ([link](https://github.com/allenai/satlas-super-resolution)). We gratefully acknowledge their contributions.
+This work utilizes the S2*NAIP dataset from the paper _Zooming Out on Zooming In: Advancing Super-Resolution for Remote Sensing_ ([link](https://github.com/allenai/satlas-super-resolution)). We gratefully acknowledge their contributions.
 
 This repository contains code to ensure the reproducibility of the experiments described in our paper, including:
 
@@ -19,12 +19,12 @@ This repository contains code to ensure the reproducibility of the experiments d
 Please cite our work if you find it helpful:
 
     @inproceedings{
-    castells2025better,
-    title={Better Data for Satellite Super Resolution},
-    author={Miguel Castells and Jules Salzinger and Oliver Zendel},
-    booktitle={NeurIPS 2025 Workshop: Reliable ML from Unreliable Data},
-    year={2025},
-    url={https://openreview.net/forum?id=MBy4kfHOza}
+        castells2025better,
+        title={Better Data for Satellite Super Resolution},
+        author={Miguel Castells and Jules Salzinger and Oliver Zendel},
+        booktitle={NeurIPS 2025 Workshop: Reliable ML from Unreliable Data},
+        year={2025},
+        url={https://openreview.net/forum?id=MBy4kfHOza}
     }
 
 ---
